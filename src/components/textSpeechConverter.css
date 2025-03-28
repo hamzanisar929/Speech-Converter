@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0%;
+  font-family: "Poppins", sans-serif;
+}
+
+.hero h1 {
+  font-size: 45px;
+  font-weight: 500;
+  margin-top: -50px;
+  margin-bottom: 50px;
+}
+
+.hero h1 span {
+  color: #ff2963;
+}
+
+textarea {
+  width: 600px;
+  height: 250px;
+  background: #403d84;
+  color: #fff;
+  font-size: 15px;
+  border: 0;
+  outline: 0;
+  padding: 20px;
+  border-radius: 10px;
+  resize: none;
+  margin-bottom: 30px;
+}
+
+textarea::placeholder {
+  font-size: 16px;
+  color: #ddd;
+}
+
+.row {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Custom Select Box */
+.custom-select {
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  background: #403d84;
+  border-radius: 35px;
+  overflow: hidden;
+  padding: 0 15px;
+}
+
+/* Styling for the select element */
+.custom-select select {
+  width: 100%;
+  background: transparent;
+  color: white;
+  height: 50px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding-right: 30px; /* Space for the icon */
+  appearance: none; /* Hide default arrow */
+}
+
+.dropdown-icon {
+  position: absolute;
+  right: 15px;
+  color: white;
+  pointer-events: none;
+}
+
+button {
+  background: #ff2963;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 30px;
+  border-radius: 35px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
